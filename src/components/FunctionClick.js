@@ -1,0 +1,17 @@
+import React from 'react'
+
+const FunctionClick = () => {
+
+    function clickHandler() {
+        console.log('Button clicked');
+    }
+
+    return (
+        <div>
+            <h3>Event Handler - Functional component</h3>
+            <button onClick={clickHandler}>Click</button>
+        </div>
+    )
+}
+
+export default FunctionClick;
